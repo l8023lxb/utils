@@ -31,6 +31,7 @@ public class SystemProperties {
     /**
      * Get the value for the given key.
      *
+     * @param key
      * @return an empty string if the key isn't found
      * @throws IllegalArgumentException if the key exceeds 32 characters
      */
@@ -44,6 +45,8 @@ public class SystemProperties {
     /**
      * Get the value for the given key.
      *
+     * @param key
+     * @param def
      * @return if the key isn't found, return def if it isn't null, or an empty string otherwise
      * @throws IllegalArgumentException if the key exceeds 32 characters
      */
